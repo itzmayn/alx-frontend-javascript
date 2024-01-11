@@ -1,13 +1,17 @@
+// task_4/js/main.ts
+
 /// <reference path="./subjects/Cpp.ts" />
 /// <reference path="./subjects/Java.ts" />
 /// <reference path="./subjects/React.ts" />
 /// <reference path="./subjects/Subject.ts" />
 /// <reference path="./subjects/Teacher.ts" />
 
+// Import the necessary classes and interfaces
 export const cpp: Subjects.Cpp = new Subjects.Cpp();
 export const java: Subjects.Java = new Subjects.Java();
 export const react: Subjects.React = new Subjects.React();
 
+// Create a Teacher object with experience in teaching C
 export const cTeacher: Subjects.Teacher = {
   firstName: "Guillaume",
   lastName: "Salva",
